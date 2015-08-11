@@ -18,7 +18,6 @@ if(!embedded){
     },2000);
 }
 else{
-    console.log(document.querySelector('.info'));
     document.querySelector('.info').style.display="none";
     document.querySelector('.gh-ribbon').style.display="none";
 }
