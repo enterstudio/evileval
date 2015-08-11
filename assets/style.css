@@ -130,7 +130,7 @@ background:#3498db url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCA
 }
 .tabs{
     display:none;
-    position:fixed; /*changed from absulute*/
+    position:fixed;
     top:0px;
     width:100%;
     left:0px;
