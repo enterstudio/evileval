@@ -91,6 +91,9 @@ function showEmbed(){
         document.querySelector("#embed").value=embedCode;
         document.querySelector('.embed-code').style.display="block";
     }
+    else{
+        alert("Aw snap! You'll have to write some code first.");
+    }
 }
 replManager.on('change',function() {
     if(isContinuous) {
