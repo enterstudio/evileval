@@ -5,6 +5,7 @@ var embedded = false;
 var baseUrl="http://theanam.github.io/evileval/#"; 
 if(top!=self){
     document.querySelector('body').classList.add('embedded');
+    //hide info and gh ribbon
     embedded = true;
 }
 
@@ -15,6 +16,11 @@ if(!embedded){
         infowindow.style.opacity=0;
         setTimeout(function(){infowindow.style.display="none"},500); //hide afrer animation
     },2000);
+}
+else{
+    console.log(document.querySelector('.info'));
+    document.querySelector('.info').style.display="none";
+    document.querySelector('.gh-ribbon').style.display="none";
 }
 var repl = document.querySelector('.repl');
 var fakeConsole = Object.create(console);
