@@ -17,10 +17,6 @@ if(!embedded){
         setTimeout(function(){infowindow.style.display="none"},500); //hide afrer animation
     },2000);
 }
-else{
-    document.querySelector('.info').style.display="none";
-    document.querySelector('.gh-ribbon').style.display="none";
-}
 var repl = document.querySelector('.repl');
 var fakeConsole = Object.create(console);
 //dress up output for better understanding
