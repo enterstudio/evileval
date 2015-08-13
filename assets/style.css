@@ -102,6 +102,7 @@ background:#3498db url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCA
     background:#ddd;
 }
 .action{
+    z-index:5000;
     width:100px;
     height:100px;
     border-radius:50%;
